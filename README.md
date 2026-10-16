@@ -22,7 +22,7 @@
 
 ![Winter temperature map, 1.10 m above floor](cfd/results/temperature-1.10m.png)
 
-**Built with OpenAI Codex**, which also provisioned and ran the RunPod GPU work through the RunPod MCP server.
+**Built with OpenAI Codex**, with Claude Code consulted for review. Codex also provisioned and ran the RunPod GPU work through the RunPod MCP server.
 
 ## Pipeline
 
