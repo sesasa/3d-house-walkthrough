@@ -1,0 +1,10 @@
+{
+  "browser": "Chrome / Playwright",
+  "errors": [],
+  "horizontal_overflow_mobile": false,
+  "all_five_map_downloads": true,
+  "plan_and_cutaway_controls": true,
+  "height_controls": true,
+  "numerical_note": "Two orthogonal meshes passed checkMesh (26,994 and 203,896 cells). At 1.10 m, the largest change in a room mean between meshes is 0.189°C; the largest change over the final 100 iterations is 0.012°C. This is a screening result: strict residual convergence and grid independence are not established, and no measured temperatures were used for validation.",
+  "final_field_iteration": 2300
+}

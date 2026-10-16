@@ -1,0 +1,41 @@
+Three.js — https://threejs.org/
+
+The MIT License
+
+Copyright © 2010-2025 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+Visual assets
+
+Oak floor maps: Poly Haven CC0 Laminate Floor 02, https://polyhaven.com/a/laminate_floor_02 . Images are resized WebP derivatives; DirectX normals are converted to OpenGL on load. Other surfaces use authored procedural maps or material values.
+
+Duvet: authored Blender cloth simulation reused as a generic furniture asset, resized for this model. Pillows and other furniture are authored geometry.
+
+Property photographs and the main plan are user-supplied source material. They are distinct from the generated 3D reconstruction and retain their original rights.
+
+Refinement 2 assets (Poly Haven, CC0):
+https://polyhaven.com/a/modern_arm_chair_01 — scanned cushion components fitted to authored seating.
+https://polyhaven.com/a/potted_plant_02 — countertop and table plants.
+https://polyhaven.com/a/brown_leather — leather normal/roughness maps.
+https://polyhaven.com/a/rough_linen — fabric normal/roughness maps.
+https://polyhaven.com/a/white_oak_veneer — furniture colour/normal/roughness maps.
+https://polyhaven.com/a/grass_ground — garden surface maps.
+Maps are local 1K WebP derivatives from the existing project assets. Room reflection probes are generated from this property's modeled scene. Scanned assets are generic visual components, not scans of the house's exact furniture.

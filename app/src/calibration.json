@@ -1,0 +1,290 @@
+[
+  {
+    "id": "utility-entry",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      144,
+      275
+    ],
+    "label_m": 2.4,
+    "opening_pixels": [
+      194,
+      237
+    ],
+    "a": 0.92,
+    "b": 1.7,
+    "width_m": 0.79,
+    "uncertainty_m": 0.08
+  },
+  {
+    "id": "utility-strip-window",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      116,
+      330
+    ],
+    "label_m": 4.07,
+    "opening_pixels": [
+      164,
+      244
+    ],
+    "a": 0.91,
+    "b": 2.43,
+    "width_m": 1.52,
+    "uncertainty_m": 0.08
+  },
+  {
+    "id": "bath-high-window",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      283,
+      406
+    ],
+    "label_m": 2.28,
+    "opening_pixels": [
+      338,
+      364
+    ],
+    "a": 3.54,
+    "b": 4.02,
+    "width_m": 0.48,
+    "uncertainty_m": 0.07
+  },
+  {
+    "id": "front-door",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 inferred upper hall width",
+    "wall_pixels": [
+      411,
+      493
+    ],
+    "label_m": 1.66,
+    "opening_pixels": [
+      419,
+      462
+    ],
+    "a": 5.08,
+    "b": 5.95,
+    "width_m": 0.87,
+    "uncertainty_m": 0.1
+  },
+  {
+    "id": "bedroom-north-window",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      500,
+      749
+    ],
+    "label_m": 4.46,
+    "opening_pixels": [
+      505,
+      558
+    ],
+    "a": 6.79,
+    "b": 7.74,
+    "width_m": 0.95,
+    "uncertainty_m": 0.05
+  },
+  {
+    "id": "bedroom-east-a",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      116,
+      330
+    ],
+    "label_m": 4.08,
+    "opening_pixels": [
+      139,
+      197
+    ],
+    "a": 0.44,
+    "b": 1.54,
+    "width_m": 1.11,
+    "uncertainty_m": 0.07
+  },
+  {
+    "id": "bedroom-east-b",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      116,
+      330
+    ],
+    "label_m": 4.08,
+    "opening_pixels": [
+      259,
+      316
+    ],
+    "a": 2.73,
+    "b": 3.81,
+    "width_m": 1.09,
+    "uncertainty_m": 0.07
+  },
+  {
+    "id": "living-east-high-a",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      558,
+      833
+    ],
+    "label_m": 5.0,
+    "opening_pixels": [
+      624,
+      680
+    ],
+    "a": 9.33,
+    "b": 10.35,
+    "width_m": 1.02,
+    "uncertainty_m": 0.06
+  },
+  {
+    "id": "living-east-high-b",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      558,
+      833
+    ],
+    "label_m": 5.0,
+    "opening_pixels": [
+      712,
+      768
+    ],
+    "a": 10.93,
+    "b": 11.95,
+    "width_m": 1.02,
+    "uncertainty_m": 0.06
+  },
+  {
+    "id": "living-south-a",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      420,
+      749
+    ],
+    "label_m": 5.92,
+    "opening_pixels": [
+      424,
+      553
+    ],
+    "a": 5.31,
+    "b": 7.63,
+    "width_m": 2.32,
+    "uncertainty_m": 0.05
+  },
+  {
+    "id": "living-south-b",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      420,
+      749
+    ],
+    "label_m": 5.92,
+    "opening_pixels": [
+      615,
+      741
+    ],
+    "a": 8.75,
+    "b": 11.02,
+    "width_m": 2.27,
+    "uncertainty_m": 0.05
+  },
+  {
+    "id": "living-garden-door",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      558,
+      833
+    ],
+    "label_m": 5.0,
+    "opening_pixels": [
+      670,
+      711
+    ],
+    "a": 10.17,
+    "b": 10.91,
+    "width_m": 0.75,
+    "uncertainty_m": 0.07
+  },
+  {
+    "id": "living-west-window",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      558,
+      833
+    ],
+    "label_m": 5.0,
+    "opening_pixels": [
+      722,
+      786
+    ],
+    "a": 11.11,
+    "b": 12.28,
+    "width_m": 1.16,
+    "uncertainty_m": 0.07
+  },
+  {
+    "id": "bedroom-door",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      116,
+      330
+    ],
+    "label_m": 4.08,
+    "opening_pixels": [
+      229,
+      271
+    ],
+    "a": 2.15,
+    "b": 2.96,
+    "width_m": 0.8,
+    "uncertainty_m": 0.07
+  },
+  {
+    "id": "office-door",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      338,
+      550
+    ],
+    "label_m": 3.81,
+    "opening_pixels": [
+      409,
+      451
+    ],
+    "a": 5.48,
+    "b": 6.23,
+    "width_m": 0.75,
+    "uncertainty_m": 0.06
+  },
+  {
+    "id": "utility-kitchen-door",
+    "source": "IMG_9962.JPG",
+    "method": "Local clear-wall ratio \u00d7 labelled room length",
+    "wall_pixels": [
+      144,
+      275
+    ],
+    "label_m": 2.4,
+    "opening_pixels": [
+      194,
+      237
+    ],
+    "a": 0.92,
+    "b": 1.7,
+    "width_m": 0.79,
+    "uncertainty_m": 0.08
+  }
+]

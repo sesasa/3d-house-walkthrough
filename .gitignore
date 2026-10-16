@@ -1,0 +1,34 @@
+# Dependencies and environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Build and test output
+dist/
+test-results/
+playwright-report/
+artifacts/
+*.tsbuildinfo
+*.log
+
+# Local data, secrets and editor files
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-*
+.openai/
+.DS_Store
+.vscode/
+.idea/
+
+# Baked 3D assets ship as a GitHub Release, not in git
+app/public/models/
+app/public/baked/
+app/public/baked-closed/
+cfd/results/solved-field.npz
+cfd/case/[0-9]*/

@@ -1,0 +1,8 @@
+{
+  "indirect_color_retention": 0.35,
+  "shadow_floor": 0.012,
+  "wet_room_shadow_floor": 0.1,
+  "note": "Offline presentation grade. Gentle neutral shadow lift prioritizes legible shapes over dramatic contrast; material albedo is retained.",
+  "structure_shadow_floor": 0.065,
+  "ceiling_shadow_floor": 0.035
+}

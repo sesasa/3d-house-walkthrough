@@ -1,0 +1,90 @@
+{
+  "coarse_cells": 26994,
+  "fine_cells": 203896,
+  "coarse_iteration": 8500.0,
+  "fine_iteration": 2300.0,
+  "previous_fine_iteration": 2200.0,
+  "volume_m3": 302.327,
+  "temperature_field_bounds_C": [
+    17.572000000000003,
+    21.706000000000017
+  ],
+  "volume_weighted_change_K": 0.008012408389414926,
+  "max_cell_change_K": 0.45400000000000773,
+  "room_section_change_K": {
+    "bathroom": -0.0010133478857881073,
+    "hall": 0.01248982572538182,
+    "kitchen": 0.0005665617481547258,
+    "living": 0.0013327862909555677,
+    "office": -0.0014968651234994468,
+    "primary": 0.007745652589488117,
+    "utility": 0.004595100342466907,
+    "wc": -0.002052756603632133
+  },
+  "room_section_mesh_difference_K": {
+    "bathroom": 0.10307902646974298,
+    "hall": 0.08628469417617524,
+    "kitchen": 0.07057406551775713,
+    "living": 0.040648815032611196,
+    "office": 0.18857220366822602,
+    "primary": 0.08734841060024578,
+    "utility": 0.043296747996187435,
+    "wc": 0.1329284741807193
+  },
+  "max_room_section_mesh_difference_K": 0.18857220366822602,
+  "initial_residuals_final_iteration": {
+    "Ux": 0.00039383,
+    "Uy": 0.000255232,
+    "Uz": 0.000458411,
+    "h": 0.000205568,
+    "p_rgh": 0.00137897,
+    "epsilon": 0.000247609,
+    "k": 0.000311958
+  },
+  "continuity_error_final": {
+    "sum_local": 2.44068e-07,
+    "global": -1.02333e-08
+  },
+  "solved_terminal_volume_flow_m3_h_positive_extract": {
+    "supply_living_a": -34.999152047024346,
+    "supply_living_b": -34.99867785196223,
+    "supply_primary": -39.998116391836604,
+    "supply_office": -40.000013172085055,
+    "extract_kitchen": 51.76780125456088,
+    "extract_utility": 35.00106897827475,
+    "extract_bathroom": 44.99864588561537,
+    "extract_wc": 20.00001832715486
+  },
+  "actual_extract_total_m3_h": 151.76753444560586,
+  "prescribed_supply_m3_h": 150,
+  "prescribed_extract_m3_h": 150,
+  "both_mesh_checks_pass": true,
+  "strict_residual_target": 1e-05,
+  "strict_convergence_met": false,
+  "measured_validation": false,
+  "display_note": "Two orthogonal meshes passed checkMesh (26,994 and 203,896 cells). At 1.10 m, the largest change in a room mean between meshes is 0.189\u00b0C; the largest change over the final 100 iterations is 0.012\u00b0C. This is a screening result: strict residual convergence and grid independence are not established, and no measured temperatures were used for validation.",
+  "mass_flow_kg_s": {
+    "supply_living_a": -0.0118092,
+    "supply_living_b": -0.01180904,
+    "supply_primary": -0.01349592,
+    "supply_office": -0.01349656,
+    "extract_kitchen": 0.01726942,
+    "extract_utility": 0.01167361,
+    "extract_bathroom": 0.01499558,
+    "extract_wc": 0.00666902
+  },
+  "net_boundary_mass_kg_s": -3.0899999999998637e-06,
+  "relative_mass_imbalance": 6.105425886057072e-05,
+  "net_advective_heat_out_W": 177.6103478606615,
+  "wall_convective_heat_W_positive_into_air": {
+    "opaque": -58.7441,
+    "floor": 378.706,
+    "externalDoors": -10.8441,
+    "partitions": 0.0,
+    "floor_wet": 35.7466,
+    "glazing": -114.226,
+    "ceiling": -39.7522
+  },
+  "net_wall_heat_into_air_W": 190.8862,
+  "wall_vs_advection_difference_W": 13.275852139338497
+}

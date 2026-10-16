@@ -1,0 +1,54 @@
+{
+  "revision": "house-5-quality-v2",
+  "format": "little-endian uint32 width/height then RGBA float16 PMREM; linear color",
+  "rooms": [
+    {
+      "room": "hall",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "kitchen",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "living",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "primary",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "office",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "bathroom",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "wc",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    },
+    {
+      "room": "utility",
+      "width": 384,
+      "height": 512,
+      "bytes": 1572872
+    }
+  ]
+}

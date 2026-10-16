@@ -1,0 +1,1104 @@
+{
+  "property": {
+    "address": "Danish Villa",
+    "city": "Denmark",
+    "listedArea": 140,
+    "sourceDate": "16 September 2020",
+    "livingHeight": 2.67
+  },
+  "rooms": [
+    {
+      "id": "hall",
+      "name": "Entrance",
+      "subtitle": "Front door & connecting hall",
+      "bounds": [
+        4.92,
+        0,
+        6.58,
+        4.08
+      ],
+      "spawn": [
+        5.7749999999999995,
+        1
+      ],
+      "look": [
+        5.7749999999999995,
+        4.3
+      ],
+      "plan": [
+        410,
+        112,
+        496,
+        334
+      ],
+      "photos": [
+        9950,
+        9951
+      ],
+      "floor": "tile",
+      "ceiling": "flat",
+      "height": 2.45,
+      "extra": [
+        [
+          4.71,
+          3.69,
+          4.92,
+          4.08
+        ]
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen & dining",
+      "subtitle": "L-shaped kitchen · glazed terrace door",
+      "bounds": [
+        0,
+        4.2,
+        7.57,
+        8.01
+      ],
+      "spawn": [
+        6.050000000000001,
+        6.95
+      ],
+      "look": [
+        1.4,
+        6.25
+      ],
+      "plan": [
+        138,
+        334,
+        554,
+        554
+      ],
+      "photos": [
+        9941,
+        9942,
+        9953,
+        9958,
+        9959
+      ],
+      "floor": "tile",
+      "ceiling": "gableX",
+      "height": 2.96,
+      "eave": 2.3
+    },
+    {
+      "id": "living",
+      "name": "Living room",
+      "subtitle": "Garden-facing windows · 5.92 × 5.00 m",
+      "bounds": [
+        5.24,
+        8.13,
+        11.159999999999998,
+        13.13
+      ],
+      "spawn": [
+        6.29,
+        9.1
+      ],
+      "look": [
+        9.489999999999998,
+        11.5
+      ],
+      "plan": [
+        415,
+        554,
+        752,
+        837
+      ],
+      "photos": [
+        9939,
+        9940,
+        9952,
+        9956
+      ],
+      "floor": "wood",
+      "ceiling": "gableZ",
+      "height": 2.67,
+      "eave": 2.32
+    },
+    {
+      "id": "primary",
+      "name": "Main bedroom",
+      "subtitle": "4.46 × 4.08 m · two east windows",
+      "bounds": [
+        6.7,
+        0,
+        11.159999999999998,
+        4.08
+      ],
+      "spawn": [
+        7.31,
+        2.75
+      ],
+      "look": [
+        9.889999999999999,
+        2.04
+      ],
+      "plan": [
+        496,
+        112,
+        752,
+        334
+      ],
+      "photos": [
+        9944,
+        9945
+      ],
+      "floor": "bedTile",
+      "ceiling": "gableX",
+      "height": 2.95,
+      "eave": 2.3
+    },
+    {
+      "id": "office",
+      "name": "Office / bedroom",
+      "subtitle": "3.47 × 3.81 m · east-facing window",
+      "bounds": [
+        7.69,
+        4.2,
+        11.159999999999998,
+        8.01
+      ],
+      "spawn": [
+        8.27,
+        6.45
+      ],
+      "look": [
+        10.389999999999999,
+        6.2
+      ],
+      "plan": [
+        554,
+        334,
+        752,
+        554
+      ],
+      "photos": [
+        9957
+      ],
+      "floor": "wood",
+      "ceiling": "gableX",
+      "height": 2.9,
+      "eave": 2.3
+    },
+    {
+      "id": "bathroom",
+      "name": "Main bathroom",
+      "subtitle": "Double basin · twin shower · fitted storage",
+      "bounds": [
+        2.52,
+        0,
+        4.8,
+        2.5
+      ],
+      "extra": [
+        [
+          2.52,
+          2.5,
+          3.56,
+          4.08
+        ]
+      ],
+      "spawn": [
+        4.2,
+        1.8
+      ],
+      "look": [
+        2.82,
+        1.05
+      ],
+      "plan": [
+        278,
+        112,
+        410,
+        256
+      ],
+      "photos": [
+        9946,
+        9947,
+        9948,
+        9954
+      ],
+      "floor": "bathTile",
+      "ceiling": "flat",
+      "height": 2.5
+    },
+    {
+      "id": "wc",
+      "name": "Guest WC",
+      "subtitle": "Compact basin & concealed cistern",
+      "bounds": [
+        3.68,
+        2.62,
+        4.8,
+        3.57
+      ],
+      "spawn": [
+        4.85,
+        3.25
+      ],
+      "look": [
+        3.85,
+        3.27
+      ],
+      "plan": [
+        335,
+        256,
+        398,
+        334
+      ],
+      "photos": [
+        9949,
+        9955
+      ],
+      "floor": "bathTile",
+      "ceiling": "flat",
+      "height": 2.4,
+      "extra": [
+        [
+          3.68,
+          3.57,
+          4.59,
+          4.08
+        ]
+      ]
+    },
+    {
+      "id": "utility",
+      "name": "Utility room",
+      "subtitle": "Opposing cabinet runs · laundry & sink",
+      "bounds": [
+        0,
+        0,
+        2.4,
+        4.08
+      ],
+      "spawn": [
+        1.24,
+        1.05
+      ],
+      "look": [
+        1.1,
+        3.4
+      ],
+      "plan": [
+        138,
+        112,
+        278,
+        334
+      ],
+      "photos": [
+        9943
+      ],
+      "floor": "tile",
+      "ceiling": "flat",
+      "height": 2.45
+    }
+  ],
+  "walls": [
+    {
+      "id": "north",
+      "axis": "x",
+      "at": -0.12,
+      "start": -0.12,
+      "end": 11.28,
+      "outer": true,
+      "inside": 1,
+      "openings": [
+        {
+          "id": "utility-entry",
+          "a": 0.92,
+          "b": 1.7,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9937,
+            9961
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±8 cm; heights photo-estimated",
+          "room": "utility",
+          "measurement": {
+            "id": "utility-entry",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              144,
+              275
+            ],
+            "label_m": 2.4,
+            "opening_pixels": [
+              194,
+              237
+            ],
+            "a": 0.92,
+            "b": 1.7,
+            "width_m": 0.79,
+            "uncertainty_m": 0.08
+          },
+          "hinge": "b",
+          "opensTo": "south",
+          "openDegrees": 90
+        },
+        {
+          "id": "bath-high-window",
+          "a": 3.54,
+          "b": 4.02,
+          "kind": "window",
+          "sill": 1.78,
+          "head": 2.16,
+          "refs": [
+            9946,
+            9947
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±7 cm; heights photo-estimated",
+          "room": "bathroom",
+          "opaque": true,
+          "measurement": {
+            "id": "bath-high-window",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              283,
+              406
+            ],
+            "label_m": 2.28,
+            "opening_pixels": [
+              338,
+              364
+            ],
+            "a": 3.54,
+            "b": 4.02,
+            "width_m": 0.48,
+            "uncertainty_m": 0.07
+          }
+        },
+        {
+          "id": "front-door",
+          "a": 5.08,
+          "b": 5.95,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9950,
+            9951
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±10 cm; heights photo-estimated",
+          "room": "hall",
+          "measurement": {
+            "id": "front-door",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × inferred upper hall width",
+            "wall_pixels": [
+              411,
+              493
+            ],
+            "label_m": 1.66,
+            "opening_pixels": [
+              419,
+              462
+            ],
+            "a": 5.08,
+            "b": 5.95,
+            "width_m": 0.87,
+            "uncertainty_m": 0.1
+          },
+          "hinge": "b",
+          "opensTo": "north",
+          "openDegrees": 90
+        },
+        {
+          "id": "bedroom-north-window",
+          "a": 6.79,
+          "b": 7.74,
+          "kind": "window",
+          "sill": 0.85,
+          "head": 2.12,
+          "refs": [
+            9944
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±5 cm; heights photo-estimated",
+          "room": "primary",
+          "measurement": {
+            "id": "bedroom-north-window",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              500,
+              749
+            ],
+            "label_m": 4.46,
+            "opening_pixels": [
+              505,
+              558
+            ],
+            "a": 6.79,
+            "b": 7.74,
+            "width_m": 0.95,
+            "uncertainty_m": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "axis": "z",
+      "at": -0.12,
+      "start": -0.12,
+      "end": 8.13,
+      "outer": true,
+      "inside": 1,
+      "openings": [
+        {
+          "id": "utility-strip-window",
+          "a": 0.91,
+          "b": 2.43,
+          "kind": "window",
+          "sill": 1.14,
+          "head": 1.67,
+          "refs": [
+            9943
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±8 cm; heights photo-estimated",
+          "room": "utility",
+          "measurement": {
+            "id": "utility-strip-window",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              116,
+              330
+            ],
+            "label_m": 4.07,
+            "opening_pixels": [
+              164,
+              244
+            ],
+            "a": 0.91,
+            "b": 2.43,
+            "width_m": 1.52,
+            "uncertainty_m": 0.08
+          }
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "axis": "z",
+      "at": 11.28,
+      "start": -0.12,
+      "end": 13.25,
+      "outer": true,
+      "inside": -1,
+      "openings": [
+        {
+          "id": "bedroom-east-a",
+          "a": 0.44,
+          "b": 1.54,
+          "kind": "window",
+          "sill": 0.83,
+          "head": 2.11,
+          "refs": [
+            9945
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±7 cm; heights photo-estimated",
+          "room": "primary",
+          "measurement": {
+            "id": "bedroom-east-a",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              116,
+              330
+            ],
+            "label_m": 4.08,
+            "opening_pixels": [
+              139,
+              197
+            ],
+            "a": 0.44,
+            "b": 1.54,
+            "width_m": 1.11,
+            "uncertainty_m": 0.07
+          }
+        },
+        {
+          "id": "bedroom-east-b",
+          "a": 2.73,
+          "b": 3.81,
+          "kind": "window",
+          "sill": 0.83,
+          "head": 2.11,
+          "refs": [
+            9945
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±7 cm; heights photo-estimated",
+          "room": "primary",
+          "measurement": {
+            "id": "bedroom-east-b",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              116,
+              330
+            ],
+            "label_m": 4.08,
+            "opening_pixels": [
+              259,
+              316
+            ],
+            "a": 2.73,
+            "b": 3.81,
+            "width_m": 1.09,
+            "uncertainty_m": 0.07
+          }
+        },
+        {
+          "id": "office-east",
+          "a": 5.73,
+          "b": 6.78,
+          "kind": "window",
+          "sill": 0.84,
+          "head": 2.12,
+          "refs": [
+            9957
+          ],
+          "confidence": "Photo + plan; dimensions estimated",
+          "room": "office"
+        },
+        {
+          "id": "living-east-high-a",
+          "a": 9.33,
+          "b": 10.35,
+          "kind": "window",
+          "sill": 1.76,
+          "head": 2.16,
+          "refs": [
+            9952
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±6 cm; heights photo-estimated",
+          "room": "living",
+          "measurement": {
+            "id": "living-east-high-a",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              558,
+              833
+            ],
+            "label_m": 5,
+            "opening_pixels": [
+              624,
+              680
+            ],
+            "a": 9.33,
+            "b": 10.35,
+            "width_m": 1.02,
+            "uncertainty_m": 0.06
+          }
+        },
+        {
+          "id": "living-east-high-b",
+          "a": 10.93,
+          "b": 11.95,
+          "kind": "window",
+          "sill": 1.76,
+          "head": 2.16,
+          "refs": [
+            9952
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±6 cm; heights photo-estimated",
+          "room": "living",
+          "measurement": {
+            "id": "living-east-high-b",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              558,
+              833
+            ],
+            "label_m": 5,
+            "opening_pixels": [
+              712,
+              768
+            ],
+            "a": 10.93,
+            "b": 11.95,
+            "width_m": 1.02,
+            "uncertainty_m": 0.06
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen-south",
+      "axis": "x",
+      "at": 8.13,
+      "start": -0.12,
+      "end": 5.12,
+      "outer": true,
+      "inside": -1,
+      "openings": [
+        {
+          "id": "kitchen-garden-window",
+          "a": 1.02,
+          "b": 3.63,
+          "kind": "window",
+          "sill": 0.94,
+          "head": 2.15,
+          "refs": [
+            9941,
+            9942,
+            9953,
+            9958
+          ],
+          "confidence": "Photo + plan; dimensions estimated",
+          "room": "kitchen",
+          "divisions": [
+            0.333,
+            0.667
+          ],
+          "transom": 1.72
+        },
+        {
+          "id": "kitchen-terrace-door",
+          "a": 3.73,
+          "b": 4.58,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9941,
+            9958
+          ],
+          "confidence": "Photo + plan; width estimated",
+          "room": "kitchen",
+          "glazed": true,
+          "hinge": "a",
+          "opensTo": "south",
+          "openDegrees": 90
+        }
+      ]
+    },
+    {
+      "id": "living-west",
+      "axis": "z",
+      "at": 5.12,
+      "start": 8.13,
+      "end": 13.25,
+      "outer": true,
+      "inside": 1,
+      "openings": [
+        {
+          "id": "living-garden-door",
+          "a": 10.17,
+          "b": 10.91,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9939,
+            9956
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±7 cm; heights photo-estimated",
+          "room": "living",
+          "glazed": true,
+          "measurement": {
+            "id": "living-garden-door",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              558,
+              833
+            ],
+            "label_m": 5,
+            "opening_pixels": [
+              670,
+              711
+            ],
+            "a": 10.17,
+            "b": 10.91,
+            "width_m": 0.75,
+            "uncertainty_m": 0.07
+          },
+          "hinge": "b",
+          "opensTo": "west",
+          "openDegrees": 90
+        },
+        {
+          "id": "living-west-window",
+          "a": 11.11,
+          "b": 12.28,
+          "kind": "window",
+          "sill": 0.65,
+          "head": 2.16,
+          "refs": [
+            9939,
+            9956
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±7 cm; heights photo-estimated",
+          "room": "living",
+          "divisions": [],
+          "transom": 1.3,
+          "measurement": {
+            "id": "living-west-window",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              558,
+              833
+            ],
+            "label_m": 5,
+            "opening_pixels": [
+              722,
+              786
+            ],
+            "a": 11.11,
+            "b": 12.28,
+            "width_m": 1.16,
+            "uncertainty_m": 0.07
+          }
+        }
+      ]
+    },
+    {
+      "id": "living-south",
+      "axis": "x",
+      "at": 13.25,
+      "start": 5.12,
+      "end": 11.28,
+      "outer": true,
+      "inside": -1,
+      "openings": [
+        {
+          "id": "living-south-a",
+          "a": 5.31,
+          "b": 7.63,
+          "kind": "window",
+          "sill": 0.67,
+          "head": 2.16,
+          "refs": [
+            9940,
+            9960
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±5 cm; heights photo-estimated",
+          "room": "living",
+          "divisions": [
+            0.5
+          ],
+          "transom": 1.6,
+          "measurement": {
+            "id": "living-south-a",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              420,
+              749
+            ],
+            "label_m": 5.92,
+            "opening_pixels": [
+              424,
+              553
+            ],
+            "a": 5.31,
+            "b": 7.63,
+            "width_m": 2.32,
+            "uncertainty_m": 0.05
+          }
+        },
+        {
+          "id": "living-south-b",
+          "a": 8.75,
+          "b": 11.02,
+          "kind": "window",
+          "sill": 0.67,
+          "head": 2.16,
+          "refs": [
+            9940
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±5 cm; heights photo-estimated",
+          "room": "living",
+          "divisions": [
+            0.5
+          ],
+          "transom": 1.6,
+          "measurement": {
+            "id": "living-south-b",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              420,
+              749
+            ],
+            "label_m": 5.92,
+            "opening_pixels": [
+              615,
+              741
+            ],
+            "a": 8.75,
+            "b": 11.02,
+            "width_m": 2.27,
+            "uncertainty_m": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "id": "utility-bath",
+      "axis": "z",
+      "at": 2.46,
+      "start": -0.12,
+      "end": 4.14,
+      "openings": []
+    },
+    {
+      "id": "bath-hall",
+      "axis": "z",
+      "at": 4.86,
+      "start": -0.12,
+      "end": 3.63,
+      "openings": [
+        {
+          "id": "bath-door",
+          "a": 1.28,
+          "b": 2.11,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9946,
+            9950
+          ],
+          "confidence": "Photo + plan; width estimated",
+          "room": "bathroom",
+          "hinge": "b",
+          "opensTo": "west",
+          "openDegrees": 90
+        },
+        {
+          "id": "wc-door",
+          "a": 2.83,
+          "b": 3.63,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9949,
+            9955
+          ],
+          "confidence": "Photo + plan; width estimated",
+          "room": "wc",
+          "hinge": "a",
+          "opensTo": "east",
+          "openDegrees": 90
+        }
+      ]
+    },
+    {
+      "id": "hall-primary",
+      "axis": "z",
+      "at": 6.64,
+      "start": -0.12,
+      "end": 4.14,
+      "openings": [
+        {
+          "id": "bedroom-door",
+          "a": 2.15,
+          "b": 2.96,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9944,
+            9945
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±7 cm; heights photo-estimated",
+          "room": "primary",
+          "measurement": {
+            "id": "bedroom-door",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              116,
+              330
+            ],
+            "label_m": 4.08,
+            "opening_pixels": [
+              229,
+              271
+            ],
+            "a": 2.15,
+            "b": 2.96,
+            "width_m": 0.8,
+            "uncertainty_m": 0.07
+          },
+          "hinge": "a",
+          "opensTo": "east",
+          "openDegrees": 90
+        }
+      ]
+    },
+    {
+      "id": "north-south-divider",
+      "axis": "x",
+      "at": 4.14,
+      "start": -0.12,
+      "end": 11.28,
+      "openings": [
+        {
+          "id": "utility-kitchen-door",
+          "a": 0.92,
+          "b": 1.7,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9943
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±8 cm; heights photo-estimated",
+          "room": "utility",
+          "measurement": {
+            "id": "utility-kitchen-door",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              144,
+              275
+            ],
+            "label_m": 2.4,
+            "opening_pixels": [
+              194,
+              237
+            ],
+            "a": 0.92,
+            "b": 1.7,
+            "width_m": 0.79,
+            "uncertainty_m": 0.08
+          },
+          "hinge": "b",
+          "opensTo": "north",
+          "openDegrees": 90
+        },
+        {
+          "id": "hall-double-door",
+          "a": 5.02,
+          "b": 6.39,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9950,
+            9951,
+            9959
+          ],
+          "confidence": "Photo + plan; width estimated",
+          "room": "hall",
+          "double": true,
+          "glazed": true,
+          "hinge": "both",
+          "opensTo": "south",
+          "openDegrees": 90
+        }
+      ]
+    },
+    {
+      "id": "office-west",
+      "axis": "z",
+      "at": 7.63,
+      "start": 4.14,
+      "end": 8.07,
+      "openings": [
+        {
+          "id": "office-door",
+          "a": 5.48,
+          "b": 6.23,
+          "kind": "door",
+          "sill": 0,
+          "head": 2.1,
+          "refs": [
+            9957,
+            9959
+          ],
+          "confidence": "Locally scaled main plan; horizontal uncertainty approximately ±6 cm; heights photo-estimated",
+          "room": "office",
+          "measurement": {
+            "id": "office-door",
+            "source": "IMG_9962.JPG",
+            "method": "Local clear-wall ratio × labelled room length",
+            "wall_pixels": [
+              338,
+              550
+            ],
+            "label_m": 3.81,
+            "opening_pixels": [
+              409,
+              451
+            ],
+            "a": 5.48,
+            "b": 6.23,
+            "width_m": 0.75,
+            "uncertainty_m": 0.06
+          },
+          "hinge": "a",
+          "opensTo": "east",
+          "openDegrees": 90
+        }
+      ]
+    },
+    {
+      "id": "office-south",
+      "axis": "x",
+      "at": 8.07,
+      "start": 7.63,
+      "end": 11.28,
+      "openings": []
+    },
+    {
+      "id": "wc-north",
+      "axis": "x",
+      "at": 2.56,
+      "start": 3.62,
+      "end": 4.86,
+      "openings": []
+    },
+    {
+      "id": "wc-west",
+      "axis": "z",
+      "at": 3.62,
+      "start": 2.56,
+      "end": 4.14,
+      "openings": []
+    },
+    {
+      "id": "wc-hall-return",
+      "axis": "x",
+      "at": 3.63,
+      "start": 4.65,
+      "end": 4.86,
+      "openings": []
+    },
+    {
+      "id": "wc-hall-step",
+      "axis": "z",
+      "at": 4.65,
+      "start": 3.63,
+      "end": 4.14,
+      "openings": []
+    }
+  ],
+  "accuracyNotes": [
+    "Main plan IMG_9962 is used. IMG_9964 is an alternative layout and is excluded.",
+    "The owner confirmed the supplied main layout and photos, with no known changes.",
+    "Clear bedroom dimensions follow 4.46 × 4.08 m and 3.47 × 3.81 m; living follows 5.92 × 5.00 m.",
+    "The hall is stepped beside the guest WC. Its 1.87 m label is assigned to the wider end. Keeping the kitchen (7.57 m), office (3.47 m), primary bedroom (4.46 m), bathroom (2.28 m) and utility (2.40 m) labels gives an upper hall width of 1.66 m and an inferred 0.21 m step. This reconciles the previous span conflict, but the step and wall thicknesses still need measurement.",
+    "Ceiling height H:267 is printed in the living room. Its interpretation as the highest ceiling point is an assumption. Other eave/ridge heights are photo estimates.",
+    "Window and door existence is checked against the plan and photos. Opening widths, offsets, sill heights, cabinet depths and module widths are estimates, not site measurements.",
+    "No electrical outlets or switches are modeled. Original documents and pricing are not published in the walkthrough.",
+    "Sixteen opening widths/offsets were recalibrated using local wall ratios and labelled dimensions. Estimated horizontal uncertainties are 5–10 cm, not survey tolerances. See the measurement report for pixel endpoints and derivation.",
+    "Door hinge jambs and opening sides follow the main plan swing arcs, cross-checked with visible photo hinges. Leaves are displayed at 90 degrees for navigation; this display angle is not a measured opening limit.",
+    "Garden boundary and roof outlines use Matriklen/GeoDanmark data via Grundviden, registered approximately to the main house. Plot is about 20.6 × 38 m. Surface edges, wall heights and unseen colours remain photo-based estimates."
+  ]
+}

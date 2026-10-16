@@ -1,0 +1,203 @@
+{
+  "parcel": [
+    [
+      -6.8,
+      -5.442
+    ],
+    [
+      -6.637,
+      32.419
+    ],
+    [
+      8.025,
+      32.592
+    ],
+    [
+      13.883,
+      32.594
+    ],
+    [
+      13.805,
+      -5.482
+    ],
+    [
+      -6.8,
+      -5.442
+    ]
+  ],
+  "roofOutlines": [
+    [
+      [
+        -0.325,
+        28.333
+      ],
+      [
+        -0.35,
+        31.234
+      ],
+      [
+        -4.7,
+        31.264
+      ],
+      [
+        -4.737,
+        28.358
+      ],
+      [
+        -0.325,
+        28.333
+      ]
+    ],
+    [
+      [
+        10.994,
+        23.275
+      ],
+      [
+        11.034,
+        31.428
+      ],
+      [
+        6.882,
+        31.366
+      ],
+      [
+        6.904,
+        23.219
+      ],
+      [
+        10.994,
+        23.275
+      ]
+    ],
+    [
+      [
+        -4.327,
+        4.284
+      ],
+      [
+        -1.309,
+        4.349
+      ],
+      [
+        -1.274,
+        1.338
+      ],
+      [
+        -1.292,
+        -0.45
+      ],
+      [
+        0.779,
+        -0.364
+      ],
+      [
+        11.56,
+        -0.45
+      ],
+      [
+        11.548,
+        14.843
+      ],
+      [
+        3.358,
+        14.842
+      ],
+      [
+        3.335,
+        9.146
+      ],
+      [
+        -0.754,
+        9.091
+      ],
+      [
+        -0.758,
+        11.77
+      ],
+      [
+        -4.286,
+        11.767
+      ],
+      [
+        -4.327,
+        4.284
+      ]
+    ]
+  ],
+  "mappedArea": 781.2112024999999,
+  "brochureArea": 780,
+  "edgeLengths": [
+    37.86,
+    14.66,
+    5.86,
+    38.08,
+    20.61
+  ],
+  "source": "public cadastre map (address withheld)",
+  "dataSource": "Matriklen and GeoDanmark outlines served by Grundviden public map",
+  "registration": "Roof northeast corner mapped to scene [11.56,-0.45]; roof orientation defines plan axes. Roof overhangs differ from walls; local alignment is approximate.",
+  "uncertainty": "Ground footprint follows mapped outlines (~20.6 m \u00d7 38 m), not a boundary survey. Garden surface edges and heights are photo estimates.",
+  "garage": {
+    "bounds": [
+      -3.57,
+      4.42,
+      -0.24,
+      11.63
+    ],
+    "height": 2.35,
+    "area": 24.0,
+    "note": "Owner confirms garage touches house. Translate mapped estimate east 0.65 m, keeping its 3.33 \u00d7 7.21 m footprint; its east wall meets the house exterior at X=-0.24 m."
+  },
+  "depot": {
+    "bounds": [
+      6.99,
+      26.57,
+      10.94,
+      31.63
+    ],
+    "height": 2.22,
+    "area": 20.0
+  },
+  "coveredTerrace": {
+    "bounds": [
+      6.9,
+      23.22,
+      11.0,
+      26.57
+    ],
+    "height": 2.38
+  },
+  "rearStore": {
+    "bounds": [
+      -4.62,
+      28.45,
+      -0.42,
+      31.15
+    ],
+    "height": 2.1,
+    "note": "Additional rear roof outline; wall colour/height not visible in supplied photographs, neutral grey approximation."
+  },
+  "front": {
+    "gate": [
+      11.32,
+      13.58
+    ],
+    "pavingModule": [
+      0.21,
+      0.14
+    ],
+    "streetWidth": 5.5,
+    "sidewalkWidth": 1.26,
+    "treeHeights": [
+      2.05,
+      1.95,
+      0.64
+    ],
+    "refs": [
+      "IMG_9937.JPG",
+      "IMG_9961.JPG"
+    ],
+    "uncertainty": "Photo-estimated paving modules, landscaping, gate and street width; aligned to the plan-scaled facade and parcel frontage. Road is simplified immediate context, not a surveyed street model."
+  }
+}

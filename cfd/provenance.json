@@ -1,0 +1,21 @@
+{
+  "geometry_evidence": [
+    {
+      "file": "app/src/property.js",
+      "sha256": "eaeee95964ff9630d18766c980a815f4909cbc4b1d0bce06ebeaf41ee7326566"
+    },
+    {
+      "file": "app/src/calibration.json",
+      "sha256": "e86c91e3b726b3941a9719d85b18e4be93609750bbf42164f82584c433c575f3"
+    },
+    {
+      "file": "reference/accuracy.md",
+      "sha256": "ed1cb788d08d30ddfb647c32a483fb32db8b6e554a3cd3901337a8f2df585ab3"
+    }
+  ],
+  "sources_accessed": "2026-10-01",
+  "equipment_source": "https://www.genvex.com/en/news/eco-400-new-efficient-ventilation-system---perfect-for-bigger-houses",
+  "supplied_shop": "https://billigventilation.dk/vare/genvex-eco-400/",
+  "visual_reference": "https://aerotak.com/cases/temperature-mapping",
+  "solver_build": "OpenFOAM 13-441953dfbb42"
+}

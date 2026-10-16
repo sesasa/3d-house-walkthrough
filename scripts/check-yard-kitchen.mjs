@@ -1,0 +1,10 @@
+import {chromium} from 'playwright';import fs from 'node:fs/promises';
+const base='properties/danish-villa',out=base+'/work/yard-kitchen-doors';await fs.mkdir(out,{recursive:true});
+const b=await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:false,args:['--no-sandbox','--use-gl=angle','--use-angle=gl']});
+try{const page=await b.newPage({viewport:{width:1440,height:1000}});await page.goto('http://localhost:5175/?legacy=1');await page.waitForFunction(()=>window.houseTour?.ready,null,{timeout:120000});
+ const result=await page.evaluate(()=>{const h=houseTour.house;h.root.updateMatrixWorld(true);const chairs=h.groups.Furniture.children.filter(o=>o.name==='Oak_dining_chair'&&o.position.x<6).map(o=>{const p=o.position.clone(),front=o.position.clone().set(0,0,1).applyQuaternion(o.quaternion);return {position:p.toArray(),towardTable:front.x*(4.3-p.x)+front.z*(6.26-p.z)}});const sink=h.root.getObjectByName('kitchen-sink-base').getObjectByName('Recessed_basin').getWorldPosition(h.camera?.position.clone()||houseTour.camera.position.clone());return {chairs,sink:sink.toArray(),fridge:h.inventory.find(i=>i.id==='kitchen-fridge'),site:h.groups.Garden.userData.site};});
+ if(result.chairs.length!==6||result.chairs.some(c=>c.towardTable<=0))throw Error('Dining chairs must face table');if(Math.abs(result.sink[0]-1.40)>.001||Math.abs(result.sink[2]-7.68)>.001)throw Error('Sink placement');if(result.fridge.position[2]!==5.32)throw Error('Fridge placement');if(Math.abs(result.site.mappedArea-780)>3)throw Error('Mapped plot area');
+ await page.evaluate(()=>houseTour.enterRoom('kitchen'));await page.waitForTimeout(500);await page.screenshot({path:out+'/source-kitchen.png'});
+ await page.evaluate(()=>{houseTour.setMode('overview');houseTour.camera.position.set(23,30,44)});await page.waitForTimeout(500);await page.screenshot({path:out+'/source-yard.png'});
+ await fs.writeFile(out+'/source-audit.json',JSON.stringify(result,null,2));console.log('PASS: 6 chairs face table; sink x=1.40 m; fridge beside ovens; mapped plot area',result.site.mappedArea);
+}finally{await b.close()}
